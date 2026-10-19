@@ -1,0 +1,39 @@
+# macOS metadata and resource forks
+.DS_Store
+.DS_Store?
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+.TemporaryItems
+.fseventsd
+.VolumeIcon.icns
+.apdisk
+__MACOSX/
+
+# Local dataset files
+/data/
+
+# Generated outputs and logs (including outputs/demo/)
+output/
+outputs/
+results/
+logs/
+*.log
+
+# Python bytecode, caches, and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.venv/
+venv/
+env/
+
+# Temporary editor files
+*.swp
+*.swo
+*~
