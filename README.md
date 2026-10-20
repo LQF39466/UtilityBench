@@ -110,6 +110,20 @@ The two accuracy fields return `None` when the evaluated records contain no prom
 
 UtilityBench builds on 18 source datasets. We thank their authors for making these resources publicly available. Record-level provenance is preserved in `source_id`.
 
+## Citations
+
+If you find this work useful, please consider citing our paper:
+
+```bibtex
+@misc{lei2026utilitybench,
+  author        = {Qifeng Lei and Zhiyong Yang and Zitai Wang and Shilong Bao and Linchao Zhang and Qianqian Xu and Qingming Huang},
+  title         = {{UtilityBench}: Measuring Language Model Utility When Errors Have Different Costs},
+  year          = {2026},
+  eprint        = {2610.25924},
+  archiveprefix = {arXiv},
+}
+```
+
 ## Contact
 
 If you encounter any problems using the code or evaluating your models, please [open an issue](https://github.com/LQF39466/UtilityBench/issues) in this repository.
