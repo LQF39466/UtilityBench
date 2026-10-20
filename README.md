@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="asset/logo.png" alt="" width="48"> UtilityBench
+  <img src="asset/logo.png" alt="" width="36"> UtilityBench
 </h1>
 <p align="center">
   <strong>Measuring Language Model Utility When Errors Have Different Costs</strong>
