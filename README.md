@@ -1,10 +1,9 @@
 # UtilityBench: Measuring Language Model Utility When Errors Have Different Costs
 
 <p align="center">
-  <a href=""><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv" alt="arXiv"></a>
+  <a href="https://arxiv.org/abs/2610.25924"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv" alt="arXiv"></a>
   <a href="https://huggingface.co/datasets/leiqf/UtilityBench"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-FFD21E" alt="Hugging Face"></a>
 </p>
-
 ## Introduction
 
 As language models are increasingly deployed in real-world scenarios with important outcomes, their mistakes can have consequences that correctness alone does not capture. A minor error in a low-stakes question and a dangerous error in medical advice should not carry the same practical significance. We therefore propose a utility-based evaluation paradigm that explicitly incorporates the varying consequences of errors, encouraging more responsible model behavior. As an early trial of this paradigm, we construct UtilityBench with continuous, sample-specific consequence annotations and introduce UtilityAUC.
